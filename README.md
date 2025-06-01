@@ -1,6 +1,6 @@
-# Netflix-BarIlan
+# PlayFlex
 
-[Link To Page](https://github.com/ViviShp/Netflix-BarIlan)
+[Link To Page](https://github.com/elir0n/PlayFlex)
 
 ## In our code, our goal is to Make the Best PlayFlex App.
 
