@@ -1,0 +1,35 @@
+services:
+  WebServer:
+    image: netflix/webserver
+    restart: always
+    build:
+      context: ./api
+      dockerfile: api.DockerFile
+    ports:
+      - "3001:3001"
+
+  MongoDB:
+    image: mongo
+    restart: always
+  RecommendServer:
+    image: netflix/recommender
+    restart: always
+    build:
+      context: ./recommend-server
+      dockerfile: Dockerfile.RecommendServer
+
+  android-app:
+    volumes:
+      - ./apk:/output  
+    build:
+      context: ./android-app
+      dockerfile: DockerFile
+    command: >
+      sh -c "cp /app/app/build/outputs/apk/release/app-release.apk /output/PlayFlex.apk"
+
+  react-app:
+    build: 
+      context: ./react-app
+      dockerfile: DockerFile
+    ports:
+      - "3000:3000"

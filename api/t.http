@@ -1,0 +1,16 @@
+### GET request to example server
+POST http://localhost:3001/api/users/
+Content-Type: application/json
+{
+  "name": "hqey121fee",
+  "password": "hddddddddyrt"
+}
+
+######
+
+PUT http://192.168.68.11:3001/api/movies/1367961446
+Content-Type: application/json
+
+{
+  "title": "hey"
+}

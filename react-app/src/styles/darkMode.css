@@ -1,0 +1,45 @@
+body.darkMode {
+    background-color: #121212;
+    color: white !important;
+}
+
+/* לוגו בכחול */
+body.darkMode .logo {
+    color: blue !important;
+}
+
+/* רקע ירוק ל-TopBar */
+body.darkMode .topBar {
+    background-color: #FFFFFF;  /* ירוק */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4) !important;
+    z-index: 1000 !important;
+}
+
+/* שמירה על צבע הלוגו מחוץ ל-TopBar */
+body.darkMode .topBar .logo {
+    color: blue;  /* שומר על כחול גם ב-TopBar */
+}
+
+/* כפתורים בצבע כחול */
+body.darkMode .topBar .logoutButton a,
+body.darkMode .topBar .adminButton a {
+    color: blue;
+}
+
+/* שינוי צבע רקע הכפתורים כשהעכבר מעליהם */
+body.darkMode .topBar .logoutButton a:hover,
+body.darkMode .topBar .adminButton a:hover {
+    background-color: #4e11e7 !important;  /* כחול */
+}
+
+/* שינוי עיצוב שורת החיפוש */
+body.darkMode .searchBar {
+    background-color: #444 !important;
+    color: white !important;
+    border-color: #666 !important;
+}
+ 
+body.darkMode h3 {
+    color: black;
+    visibility: visible !important;
+}

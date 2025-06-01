@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:theme="@style/Base.Theme.MyApplication.FullScreen"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="horizontal"
+    tools:context=".view.WatchPageActivity">
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/pvVideo"
+        android:layout_width="match_parent"
+        app:surface_type="surface_view"
+        app:controller_layout_id="@layout/custom_exo_controller_view"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

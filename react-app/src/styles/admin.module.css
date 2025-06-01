@@ -1,0 +1,237 @@
+/* Admin Page Styles */
+.topBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  /* Adjusted padding for better spacing */
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  height: 100px;
+  /* Adjusted height for better balance */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Bebas Neue, sans-serif;
+  color: #e50914;
+  z-index: 1100;
+}
+
+.logoutButton {
+  position: absolute;
+  top: 40px;
+  /* Keep it at the top */
+  right: 20px;
+  /* Move it 20px from the right */
+}
+
+.logoutButton a {
+  color: #fff;
+  text-decoration: none;
+  background: #e50914;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.homeButton {
+  position: absolute;
+  top: 40px;
+  /* Keep it at the top */
+  right: 105px;
+  /* Move it 20px from the right */
+}
+
+.homeButton a {
+  color: #fff;
+  text-decoration: none;
+  background: #e50914;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.logoutButton a:hover,
+.homeButton a:hover {
+  background-color: #d32f2f;
+}
+
+
+.searchContainer {
+  position: absolute;
+  top: 37px;
+  right: 270px;
+  /* Positioned to the right of the admin button */
+}
+
+.searchButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  position: static;
+  /* Remove absolute positioning */
+}
+
+.searchButton img {
+  width: 20px;
+  /* Reduced size to match other icons */
+  height: 20px;
+  object-fit: contain;
+}
+
+.darkModeButton {
+  position: absolute;
+  top: 37px;
+  right: 230px;
+  /* Positioned to the right of the search button */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.darkModeButton img {
+  width: 30px;
+  /* Reduced size to match other icons */
+  height: 30px;
+  object-fit: contain;
+}
+
+.searchBar {
+  padding: 8px 12px;
+  /* Increased padding for better appearance */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  right: 50px;
+  /* Adjusted positioning */
+  width: 200px !important;
+  /* Increased width */
+  height: 35px;
+  /* Added explicit height */
+  transition: all 0.3s ease;
+  /* Smooth transition for appearance */
+}
+
+.contentContainer {
+  margin-top: 120px;
+  padding: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.movieForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+.inputField {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.btnAdd, .btnUpdate, .btnEdit, .btnDelete {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btnAdd {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btnAdd:hover {
+  background-color: #2563eb;
+}
+
+.btnUpdate {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.btnUpdate:hover {
+  background-color: #d97706;
+}
+
+.btnEdit {
+  background-color: #10b981;
+  color: white;
+}
+
+.btnEdit:hover {
+  background-color: #059669;
+}
+
+.btnDelete {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btnDelete:hover {
+  background-color: #dc2626;
+}
+
+.movieList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.movieItem {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movieDetails h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.movieDetails p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.movieActions {
+  display: flex;
+  gap: 10px;
+}

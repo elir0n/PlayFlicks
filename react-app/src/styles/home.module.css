@@ -1,0 +1,189 @@
+.topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px; /* Adjusted padding for better spacing */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    height: 100px; /* Adjusted height for better balance */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Bebas Neue, sans-serif;
+    color: #e50914;
+    z-index: 1100;
+}
+
+.logoutButton {
+    position: absolute;
+    top: 40px; /* Keep it at the top */
+    right: 20px; /* Move it 20px from the right */
+}
+
+.logoutButton a {
+    color: #fff;
+    text-decoration: none;
+    background: #e50914;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.adminButton {
+    position: absolute;
+    top: 40px; /* Keep it at the top */
+    right: 105px; /* Move it 20px from the right */
+}
+
+.adminButton a {
+    color: #fff;
+    text-decoration: none;
+    background: #e50914;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.logoutButton a:hover, 
+.adminButton a:hover {
+    background-color: #d32f2f;
+}
+
+
+.searchContainer {
+    position: absolute;
+    top: 37px;
+    right: 270px; /* Positioned to the right of the admin button */
+}
+
+.searchButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: static; /* Remove absolute positioning */
+}
+
+.searchButton img {
+    width: 20px; /* Reduced size to match other icons */
+    height: 20px;
+    object-fit: contain;
+}
+
+.darkModeButton {
+    position: absolute;
+    top: 37px;
+    right: 230px; /* Positioned to the right of the search button */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.darkModeButton img {
+    width: 30px; /* Reduced size to match other icons */
+    height: 30px;
+    object-fit: contain;
+}
+
+.searchBar {
+    padding: 8px 12px; /* Increased padding for better appearance */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute; 
+    right: 50px; /* Adjusted positioning */
+    width: 200px !important; /* Increased width */
+    height: 35px; /* Added explicit height */
+    transition: all 0.3s ease; /* Smooth transition for appearance */
+}
+
+
+
+.contentContainer {
+    margin-top: 120px;
+    padding: 20px;
+}
+
+.categories {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 30px;
+}
+
+.category h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.movieList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.movieItem {
+    flex: 0 0 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.movieImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.movieItem h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.movieVideo {
+    width: 100%;
+    max-height: 150px;
+    margin-top: 10px;
+}
+
+.scrollableContainer {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.videoContainer {
+    position: relative;
+    width: 95vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoPlayer {
+    width: 100%;
+    height: 100%;
+}
+
+.videoPlayer video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

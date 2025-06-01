@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Dark Base -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#121212"/>  <!-- Deep black/gray -->
+        </shape>
+    </item>
+
+    <!-- Neon Glow Effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="800dp"
+                android:centerX="50%"
+                android:centerY="50%"
+                android:startColor="#FF000033"
+            android:endColor="@android:color/transparent"/>
+        </shape>
+    </item>
+
+</layer-list>

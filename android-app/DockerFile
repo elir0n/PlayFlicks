@@ -1,0 +1,40 @@
+FROM ubuntu:20.04
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    dos2unix \
+    unzip \
+    openjdk-17-jdk \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Android SDK
+RUN curl -o sdk.zip https://dl.google.com/android/repository/commandlinetools-linux-10406996_latest.zip \
+    && unzip sdk.zip -d /android-sdk \
+    && rm sdk.zip
+
+# Set up environment variables
+ENV ANDROID_SDK_ROOT=/android-sdk
+ENV PATH=$ANDROID_SDK_ROOT/cmdline-tools/bin:$PATH
+ENV PATH=$ANDROID_SDK_ROOT/platform-tools:$PATH
+
+# Accept licenses and install required build tools
+RUN yes | sdkmanager --sdk_root=$ANDROID_SDK_ROOT --licenses
+RUN sdkmanager --sdk_root=$ANDROID_SDK_ROOT "platform-tools" "build-tools;34.0.0" "platforms;android-34"
+
+# Copy project into container
+WORKDIR /app
+COPY . /app/
+
+# Convert to correct format and make executable
+RUN dos2unix ./gradlew && chmod +x ./gradlew
+
+# Build the APK
+
+RUN ./gradlew assembleRelease
+
+# Create output directory
+RUN mkdir -p /output
+
+# Set the entrypoint to show the output file
+CMD ["bash", "-c", "find /app -name '*.apk' && ls -R /app/app/build/outputs && echo 'Build directory contents:' && ls -R /app"]

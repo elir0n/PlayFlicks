@@ -1,0 +1,23 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styles from '../../styles/admin.module.css';
+
+function ActionButtons() {
+    // Handle logout function
+    const handleLogout = () => {
+        localStorage.removeItem('token'); // Remove the token from localStorage
+    };
+
+    return (
+        <>
+            <div className={styles.logoutButton}>
+                <Link to="/" onClick={handleLogout}>Log Out</Link>
+            </div>
+            <div className={styles.homeButton}>
+                <Link to="/home">Home</Link>
+            </div>
+        </>
+    );
+}
+
+export default ActionButtons;

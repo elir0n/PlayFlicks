@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="movies_tv">movies, TV</string>
+    <string name="shows_more"><![CDATA[shows & more]]></string>
+    <string name="the_image_collage">The image collage</string>
+    <string name="the_page_color">The page color</string>
+    <string name="netflix_logo">netflix logo</string>
+    <string name="get_started">Get Started</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="display_name">Display Name</string>
+    <string name="image">Image</string>
+    <string name="browse">Browse</string>
+    <string name="submit">Submit</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="login">Login</string>
+    <string name="BASE_URL">http://10.0.2.2:3001</string>
+    <string name="see_all_movies_by_category">See All Movies by Categories</string>
+    <string name="see_all_promoted_categories">See All Promoted Categories</string>
+    <string name="category_title">Category Title</string>
+    <string name="recommended_movies">Recommended Movies</string>
+    <string name="this_is_a_brief_movie_description_that_explains_the_plot">This is a brief movie description that explains the plot.</string>
+    <string name="action_adventure_sci_fi">Action, Adventure, Sci-Fi</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="play_movie">Play Movie</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_category">Delete Category</string>
+    <string name="add_movie">Add Movie</string>
+    <string name="change_video">Change Video</string>
+    <string name="choose_video">Choose Video</string>
+    <string name="promotion">Promotion</string>
+    <string name="save_category">Save Category</string>
+    <string name="cancel">Cancel</string>
+    <string name="select_category">Select Category</string>
+    <string name="add_category">Add Category</string>
+    <string name="a_valid_category_must_be_selected">A Valid Category Must Be Selected</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="video_added_successfully">Video Added Successfully</string>
+    <string name="image_added_successfully">Image Added Successfully</string>
+    <string name="video_must_be_provided">Video Must Be Provided</string>
+    <string name="image_must_be_provided">Image Must Be Provided</string>
+    <string name="movie_title_must_be_provided">Movie Title Must Be Provided</string>
+    <string name="error_converting_image_to_correct_format_please_try_again">Error converting image to correct format, Please try again</string>
+    <string name="movie_added_successfully">Movie Added Successfully</string>
+    <string name="movie_already_exists">Movie Already Exists</string>
+    <string name="error_connecting_to_server_please_try_again_later">Error Connecting To Server Please Try Again Later</string>
+    <string name="no_category_provided">No Category Provided</string>
+    <string name="enter_movie_description">Enter Movie Description</string>
+    <string name="save">Save</string>
+    <string name="enter_movie_title">Enter Movie Title</string>
+    <string name="loading_data_please_wait">Loading Data Please Wait...</string>
+    <string name="updating_data_please_wait">Updating Data, Please Wait</string>
+    <string name="category_already_exists">Category already exists</string>
+    <string name="api_server_error_please_try_again_later">Api server error, Please try again later</string>
+    <string name="category_or_movie_doesn_t_exist">Category or Movie doesn\'t exist</string>
+    <string name="movie_deleted_successfully">Movie Deleted Successfully</string>
+    <string name="you_need_to_create_a_category_first">You need to create a category first</string>
+    <string name="back">Back</string>
+    <string name="category_added_successfully">Category Added Successfully</string>
+    <string name="category_modified_successfully">Category Modified Successfully</string>
+    <string name="see_random_movies">See Random Movies</string>
+    <string name="please_be_on_a_valid_category">Please be on a valid Category</string>
+    <string name="invalid_category_selected">Invalid Category Selected</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="please_select_a_profile_image">Please select a profile image</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="please_fill_all_fields">Please fill all fields</string>
+    <string name="please_fill_in_both_fields">Please fill in both fields</string>
+    <string name="playflex">PlayFlex</string>
+    <string name="the_password_needs_to_be_at_least_8_characters_long">The password needs to be at least 8 characters long</string>
+</resources>

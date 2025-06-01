@@ -1,0 +1,24 @@
+FROM gcc:latest
+
+RUN apt-get update && apt-get install -y \
+    cmake \
+    python3 \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+
+COPY /src/Model /app/src/Model
+COPY /src/Controller /app/src/Controller
+COPY /src/Tests /app/src/Tests
+
+COPY CMakeLists.txt /app
+WORKDIR /app/
+
+RUN mkdir data
+
+RUN mkdir build
+WORKDIR /app/build/
+
+RUN cmake .. && make
+
+CMD ["./runTests"]

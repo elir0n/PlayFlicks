@@ -1,0 +1,81 @@
+.background {
+    display: block;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Bebas Neue, sans-serif;
+    margin-bottom: 20px;
+    color: #e50914;
+    position: absolute; /* Change to absolute positioning */
+    top: 20px; /* Move it down 20px from the top */
+    left: 20px; /* Move it 20px from the left */
+    z-index: 1100;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin: 10px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: 1000;
+}
+
+.signup {
+    position: absolute;
+    top: 40px; /* Keep it at the top */
+    right: 20px; /* Move it 20px from the right */
+}
+
+.signup a {
+    color: #fff;
+    text-decoration: none;
+    background: #e50914;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login {
+    position: absolute;
+    top: 40px; /* Keep it at the top */
+    right: 105px; /* Move it 20px from the right */
+}
+
+.login a {
+    color: #fff;
+    text-decoration: none;
+    background: #e50914;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
