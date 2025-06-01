@@ -4,7 +4,7 @@
 
 ## In our code, our goal is to Make the Best PlayFlex App.
 
-### [Installation](/wiki/android.md)
+### [Installation](/wiki/install.md)
 
 ### [API](/wiki/api.md)
 
