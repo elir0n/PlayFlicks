@@ -2,7 +2,7 @@
 
 [Link To Page](https://github.com/elir0n/PlayFlex)
 
-## In our code, our goal is to Make the Best PlayFlex App.
+## In our code, our goal is to Make the Best PlayFlicks App.
 
 ### [Installation](/wiki/install.md)
 
