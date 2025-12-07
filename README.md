@@ -1,4 +1,4 @@
-# PlayFlex
+# PlayFlicks
 
 [Link To Page](https://github.com/elir0n/PlayFlex)
 
